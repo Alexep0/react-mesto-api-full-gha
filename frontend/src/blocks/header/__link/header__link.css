@@ -1,0 +1,17 @@
+.header__link {
+    margin: 0;
+    padding: 0;
+    margin-left: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #fff;
+    font-family: Inter, Verdana, Tahoma, sans-serif;
+    display: block;
+}
+
+.header__link:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}

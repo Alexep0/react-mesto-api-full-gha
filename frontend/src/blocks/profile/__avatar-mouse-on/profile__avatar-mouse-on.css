@@ -1,0 +1,36 @@
+.profile__avatar-mouse-on {
+    width: 120px;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    display: block;
+    height: 120px;
+    background: url(../../../images/profile-mouse-on.svg);
+    position: absolute;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: 0.3s ease;
+    margin: 0;
+    background-color: black;
+  }
+  .profile__avatar-mouse-on:hover {
+    opacity: 0.8;
+  }
+
+  @media screen and (max-width: 580px) {
+    .profile__avatar-mouse-on {
+      width: 80px;
+      height: 80px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .profile__avatar-mouse-on {
+      margin-right: 0;
+      margin-bottom: 26px;
+      align-self: center;
+      width: 120px;
+      height: 120px;
+    }
+  }

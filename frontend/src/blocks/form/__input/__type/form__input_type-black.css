@@ -1,0 +1,19 @@
+.form__input_type-black {
+    color: #fff;
+    background-color: #000;
+    border-bottom: 1px solid rgba(255,255,255);
+  }
+  
+  .form__input_type-black::-webkit-input-placeholder {
+    color: #CCC;
+  }
+  
+  .form__input_type-black::-moz-placeholder {
+    color: #CCC;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .form__input_type-black {
+      max-width: 238px;
+    }
+  }
