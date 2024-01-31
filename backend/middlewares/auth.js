@@ -1,6 +1,4 @@
 /* eslint-disable prefer-destructuring */
-/* eslint-disable linebreak-style */
-/* eslint-disable import/no-extraneous-dependencies */
 const jwt = require('jsonwebtoken');
 
 const UnauthorizedErr = require('../errors/UnauthorizedErr');
